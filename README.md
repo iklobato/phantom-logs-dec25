@@ -33,4 +33,9 @@ The log files contain JSON payloads. To avoid transmitting plaintext, the system
 
 ## Deliverable
 - A git repository with your script.
-- The final sum.
+- The final sum
+
+## Resolution
+```
+Total amount of verified transactions: 50431.73
+```
