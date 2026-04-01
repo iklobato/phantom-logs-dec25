@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 140
+target-version = ['py38']
+skip-string-normalization = true
+
+[tool.ruff]
+line-length = 140
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "C90", "N"]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["N806"]
+
+[tool.ruff.lint.flake8-builtins]
+builtins-ignorelist = ["id"]
+
